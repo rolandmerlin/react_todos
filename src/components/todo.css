@@ -1,0 +1,23 @@
+#todos {
+    width:600px;
+    margin:0 auto;
+}
+.todos {
+    display:grid;
+    grid-template-columns: 50px 1fr 1fr 100px;
+    gap:4px;
+    line-height: 35px;    
+}
+.todos span, #todos span {
+    text-align: center;
+    padding:0;
+}
+.todos span {
+    padding:4px;
+}
+button {
+    padding:4px 10px;
+}
+input {
+    padding:4px 10px;
+}
