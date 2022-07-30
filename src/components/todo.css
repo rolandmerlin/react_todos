@@ -1,5 +1,5 @@
-#todos {
-    width:600px;
+#todos, #todointro {
+    max-width:600px;
     margin:0 auto;
 }
 .todos {

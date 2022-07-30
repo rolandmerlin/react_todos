@@ -66,17 +66,19 @@ const Todos = () => {
     return (
         <main>
         <h1>TODOS React</h1>
-        <div className="todos">
-            <span>#</span>
-            <span>
-                <input type="text" name="todoname" value={todo.todoname} onChange={handleChange}/>
-            </span>
-            <span>
-                <input type="text" name="tododesc" value={todo.tododesc} onChange={handleChange}/>
-            </span>
-            <span>
-                <button id="add_todos_submit" onClick={AddTodo}>Ajouter</button>
-            </span>
+        <div id="todointro">
+            <div className="todos">
+                <span>#</span>
+                <span>
+                    <input type="text" name="todoname" value={todo.todoname} onChange={handleChange}/>
+                </span>
+                <span>
+                    <input type="text" name="tododesc" value={todo.tododesc} onChange={handleChange}/>
+                </span>
+                <span>
+                    <button id="add_todos_submit" onClick={AddTodo}>Ajouter</button>
+                </span>
+            </div>
         </div>
         <div id="todos">
             {
